@@ -9,9 +9,7 @@ import { FormularioService } from 'src/app/core/services/formulario.service';
 export class CadastroComponent {
   perfilComponent = false;
 
-  constructor(private formularioService: FormularioService) {
-
-  }
+  constructor(private formularioService: FormularioService) { }
 
   cadastrar() {
     const formCadastro = this.formularioService.getCadastro()
